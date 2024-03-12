@@ -7,10 +7,10 @@
 
 <#
 .NOTES
-    Author         : Chris Titus @christitustech
-    Runspace Author: @DeveloperDurp
-    GitHub         : https://github.com/ChrisTitusTech
-    Version        : 24.02.20
+    Author         : Diogenys Spinelly
+    Runspace Author: @k0rozawa
+    GitHub         : https://github.com/Kur0zawa
+    Version        : 11.03.24
 #>
 param (
     [switch]$Debug,
@@ -5219,8 +5219,8 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                     </Border>
                     <Border Grid.Row="0" Grid.Column="2">
                         <StackPanel Background="{MainBackgroundColor}" SnapsToDevicePixels="True">
-                            <Button Name="WPFUpdatesdisable" FontSize="16" Content="Disable ALL Updates (NOT RECOMMENDED!)" Margin="20,4,20,10" Padding="10,10,10,10"/>
-                            <TextBlock Margin="20,0,20,0" Padding="10" TextWrapping="WrapWithOverflow" MaxWidth="300">This completely disables ALL Windows Updates and is NOT RECOMMENDED.<LineBreak/><LineBreak/> However, it can be suitable if you use your system for a select purpose and do not actively browse the internet. <LineBreak/><LineBreak/>Note: Your system will be easier to hack and infect without security updates.</TextBlock>
+                            <Button Name="WPFUpdatesdisable" FontSize="16" Content="Desative TODAS as atualizações (NÃO RECOMENDADO!)" Margin="20,4,20,10" Padding="10,10,10,10"/>
+                            <TextBlock Margin="20,0,20,0" Padding="10" TextWrapping="WrapWithOverflow" MaxWidth="300">Isso desativa completamente TODAS as atualizações do Windows e NÃO É RECOMENDADO.<LineBreak/><LineBreak/> No entanto, pode ser adequado se você usar seu sistema para uma finalidade específica e não navegar ativamente na Internet. <LineBreak/><LineBreak/>Observação: será mais fácil hackear e infectar seu sistema sem atualizações de segurança.</TextBlock>
                             <TextBlock Text=" " Margin="20,0,20,0" Padding="10" TextWrapping="WrapWithOverflow" MaxWidth="300"/>
                         </StackPanel>
                         </Border>
